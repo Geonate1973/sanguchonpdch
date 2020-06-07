@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=0, initial-scale=1.0 maximum-scale=1.0, minimum-scale=1.0">
+    <title>SANGUCHÓN pero de CHICHARRÓN | Chicharonería | Café | Chorrillos | desde 1980</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- script cel -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="js/menu_cel.js"></script>
+    <!-- FIN  script cel -->
+    <script src="js/menu-carta.js"></script>
+    <script src="https://kit.fontawesome.com/886ebdd1bd.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Anton|Caveat&display=swap" rel="stylesheet">
+
+    <!-- fuente para menu -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- fuente para menu -->
+</head>
+
+<body>
+    <!-- CODIGO PARA ABRIR MESENGER FACEBOOK -->
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v7.0'
+    });
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your Chat Plugin code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="278405322171608"
+theme_color="#67b868"
+logged_in_greeting="Hola!, en que podemos ayudarte?"
+logged_out_greeting="Hola!, en que podemos ayudarte?">
+</div>
+
+<!-- FIN CODIGO FACEBOOK MESSENGER -->
+    <div id="arriba"></div>
+    <header>
+        <img src="img/logo.png" alt="" class="logo">
+        <div class="menu_bar">
+            <a href="#" class="bt-menu"><i class="fas fa-bars"></i> Menú</a>
+        </div>
+           <nav>
+            <ul>
+                <li><a href="index.html"> Inicio</a></li> 
+                <li><a href="carta.html">Carta-Menú</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+                <li><a href="https://drive.google.com/open?id=1rUDwuVJOJH6ZUJQtxt1fFao0vMwGB5a0wl-jLHrQMUU" target="_blank">Postula</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner_master ">
+        <img src="img/banner-carta.jpg" alt="">
+    </div>
+
+    <h2>Menú-Carta</h2>
+    <div class="wrap">
+        <h1 class="titulo_menu">Sanguchón pero de Chicharrón</h1>
+        <ul class="tabs">
+            <li><a href="#tab1"><span class="tab-text">COMBOS</span></a></li>
+            <li><a href="#tab2"><span class="tab-text">SANGUCHES</span></a></li>
+            <li><a href="#tab3"><span class="tab-text">BEBIDAS CALIENTES</span> </a></li>
+            <li><a href="#tab4"><span class="tab-text">BEBIDAS FRÍAS</span></a></li>
+            <li><a href="#tab5"><span class="tab-text">JUGOS</span></a></li>
+            <li><a href="#tab6"><span class="tab-text">POR PESO</span></a></li>
+            <li><a href="#tab7"><span class="tab-text">PLATOS A LA CARTA</span></a></li>
+            <li><a href="#tab8"><span class="tab-text">MENÚ</span></a></li>
+        </ul>
+
+        <div class="secciones">
+            <article id="tab1">
+                <div class="menu-carta">
+                    <h2>COMBOS</h2>
+                    <dl>
+                        <dt>COMBO 1</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">
+                            <ul>
+                                <li>1/2 Kilo de Chicharrón</li>
+                                <li>1 porción de camote</li>
+                                <li>10 panes especiales</li>
+                                <li>2 tamales</li>
+                                <li>Porción de zarza criolla</li>
+
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>COMBO 2</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">
+                            <ul>
+                                <li>1/4 Kilo de Chicharrón</li>
+                                <li>1/2 porción de camote</li>
+                                <li>4 panes especiales</li>
+                                <li>1 tamal</li>
+                                <li>Porción de zarza criolla</li>
+
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>COMBO 3</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">
+                            <ul>
+                                <li>150 gr de Chicharrón</li>
+                                <li>Acompañado de camote</li>
+                                <li>2 panes especiales</li>
+                                <li>1 tamal</li>
+                                <li>Porción de zarza criolla</li>
+
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>COMBO 4</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">
+                            <ul>
+                                <li>1/2 Kilo de Chicharrón</li>
+                                <li>1 porción de camote</li>
+                                <li>6 panes especiales</li>
+                                <li>1 tamal</li>
+                                <li>Porción de zarza criolla</li>
+
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>COMBO 5</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">
+                            <ul>
+                                <li>150 gr de Chicharrón</li>
+                                <li>Acompañado de camote y relleno</li>
+                                <li>Porción de Relleno</li>
+                                <li>2 panes especiales</li>
+                                <li>1 tamal</li>
+                                <li>Porción de zarza criolla</li>
+
+                            </ul>
+                        </dd>
+                    </dl>
+
+
+
+                </div>
+            </article>
+            
+            <article id="tab2">
+                <div class="menu-carta">
+                    <h2>SANGUCHES</h2>
+                    <dl>
+                        <dt>Pan con Chicharrón</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Nuestro producto bandera, con el secreto desde su creación, Lonjas de
+                            chicharrón, camote frito, puedes acompañarlo con zarza criolla, tienes dos tamaños, mismo
+                            tamaño de pan con la cantidad de contenido diferente.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Pan con Asado</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Lonjas de Asado de res, preparado en casa, puedes acompañarlo con
+                            mostaza, mayonesa y zarza criolla, tienes dos tamaños, mismo tamaño de pan con la cantidad
+                            de contenido diferente.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Pan con Pollo Deshilachado</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Otro de nuestros productos más vendidos, puedes pedirlo con verduras
+                            (lechuga y/o tomate) además de nuestra mayonesa hecha en casa, tienes dos tamaños, mismo
+                            tamaño de pan con la cantidad de contenido diferente.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Pan con Pollo a la plancha</dt>
+                        <dd class="price">15.60</dd>
+                        <dd class="ingredients">Una simple pero exquisita pechuga de pollo en un pan francés grande, la
+                            puedes pedir con verduras (lechuga y/o tomate).</dd>
+                    </dl>
+                    <dl>
+                        <dt>Pan con Jamón del País</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Aquí tienes otro producto hecho en casa, lonjas de Jamón del País, este
+                            sanguche la puedes pedir con lechuga y zarza criolla, tu decides!!, tienes dos tamaños,
+                            mismo tamaño de pan con la cantidad de contenido diferente.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Pan con Hamburguesa Clásica</dt>
+                        <dd class="price">13.50</dd>
+                        <dd class="ingredients">Nuestra Hamburguesa está preparada en casa, con ingredientes
+                            seleccionados, y el secreto de casa, la puedes pedir con verduras (lechuga y tomate), y la
+                            puedes acompañar con todas las cremas.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Pan con Hamburguesa Royal</dt>
+                        <dd class="price">17.70</dd>
+                        <dd class="ingredients">Nuestra Hamburguesa está preparada en casa, con ingredientes
+                            seleccionados, y el secreto de casa, además de la Hamburguesa, viene con un huevo frito y
+                            queso edam. La puedes pedir con verduras (lechuga y tomate), y la puedes acompañar con todas
+                            las cremas.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Pan con Hamburguesa Sanguchón</dt>
+                        <dd class="price">18.80</dd>
+                        <dd class="ingredients">Nuestra Hamburguesa está preparada en casa, con ingredientes
+                            seleccionados, y el secreto de casa, además de la Hamburguesa, viene con un huevo frito,
+                            lonjas de lomito ahumado y queso edam. La puedes pedir con verduras (lechuga y tomate), y la
+                            puedes acompañar con todas las cremas.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Pan con Salchicha Frankfurter</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Embutido seleccionado, nuestra presentación es del producto abierto y
+                            frito en la plancha para fortalecer su sabor. También en dos tamaños, junior y especial.
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Pan con Chorizo Parrillero</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Embutido seleccionado, nuestra presentación es del producto abierto y
+                            frito en la plancha para fortalecer su sabor. También en dos tamaños, junior y especial.
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Pan con Lomito Ahumado</dt>
+                        <dd class="price"></dd>
+                        <dd class="ingredients">No te confundas, este es un embutido, son lonjas, es un producto muy
+                            agradable al paladar, poco conocido pero sin duda una elección sin pierde. También en dos
+                            presentaciones.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Pan con Relleno</dt>
+                        <dd class="price"></dd>
+                        <dd class="ingredients">Otro embutido, exquisito y agradable al paladar, acompañado con camote
+                            frito, también en 2 presentaciones</dd>
+                    </dl>
+                    <dl>
+                        <dt>Pan con Camote</dt>
+                        <dd class="price"></dd>
+                        <dd class="ingredients">Pan francés grande con camote frito.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Pan con Huevo</dt>
+                        <dd class="price"></dd>
+                        <dd class="ingredients">Un clásico pan con huevo frito.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Pan con Queso Edam</dt>
+                        <dd class="price"></dd>
+                        <dd class="ingredients">Para los nostalgicos, un pan con queso edam, derritiéndose....</dd>
+                    </dl>
+                </div>
+
+            </article>
+
+            <article id="tab3">
+                <div class="menu-carta">
+                    <h2>BEBIDAS CALIENTES</h2>
+                    <dl>
+                        <dt>Café pasado gota a gota</dt>
+                        <dd class="price">15.60</dd>
+                        <dd class="ingredients">Nuestro CAFÉ reconocido por muchos ha sido un trabajo interno para hacer
+                            la mejor combinación de cafés de nuestro PERÚ y encontrar la mejor mezcla, nuestro café es
+                            pasado gota a gota.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Café con Leche</dt>
+                        <dd class="price">15.60</dd>
+                        <dd class="ingredients">Una combinación excelente y trabajamos con leche de establo.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Café cortado</dt>
+                        <dd class="price">15.60</dd>
+                        <dd class="ingredients">Un cortado es un término de origen español para denominar a un café con
+                            una pequeña cantidad de leche normalmente caliente para quitarle un toque de amargor.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Café Ecco</dt>
+                        <dd class="price">15.60</dd>
+                        <dd class="ingredients">Café descafeinado, para los que quieren pero no pueden.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Infusión</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Varias opciones de té.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Milo con Leche</dt>
+                        <dd class="price">13.50</dd>
+                        <dd class="ingredients">Milo con leche</dd>
+                    </dl>
+                    <dl>
+                        <dt>Milo con agua</dt>
+                        <dd class="price">17.70</dd>
+                        <dd class="ingredients">Milo con agua.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Leche sola</dt>
+                        <dd class="price">18.80</dd>
+                        <dd class="ingredients">Leche sola.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Chocolate caliente</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Nuestro chocolate es preparado en casa, no probarás algo tan especial
+                            como nuestro chocolate de casa.
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Cappuccino</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Cappuccino.
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Cappuccino con crema</dt>
+                        <dd class="price">15.60</dd>
+                        <dd class="ingredients">Cappuccino con crema.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Mocca</dt>
+                        <dd class="price">15.60</dd>
+                        <dd class="ingredients">Mocca</dd>
+                    </dl>
+                    <dl>
+                        <dt>Café Express</dt>
+                        <dd class="price">15.60</dd>
+                        <dd class="ingredients">Un gran cafe, una experiencia inigualable.</dd>
+                    </dl>
+
+                </div>
+            </article>
+
+            <article id="tab4">
+                <div class="menu-carta">
+                    <h2>BEBIDAS FRÍAS</h2>
+                    <dl>
+                        <dt>Milkshake</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Helado + Leche</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Limonada Frozen</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Limonada Frozen</dd>
+                    </dl>
+                    <dl>
+                        <dt>Frozen de frutas</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Tienes para escojer, papaya, fresa, piña o maracuyá.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Chicha Morada</dt>
+                        <dd class="price">15.60</dd>
+                        <dd class="ingredients">De pura fruta 100% natural.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Maracuyá Refresco</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Fruta Natural.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Limonada</dt>
+                        <dd class="price">13.50</dd>
+                        <dd class="ingredients">Limonada</dd>
+                    </dl>
+                    <dl>
+                        <dt>Gaseosa Personal</dt>
+                        <dd class="price">17.70</dd>
+                        <dd class="ingredients">Coca Cola, Inca Kola</dd>
+                    </dl>
+                    <dl>
+                        <dt>Agua Mineral San Antonio</dt>
+                        <dd class="price">18.80</dd>
+                        <dd class="ingredients">Con Gas / Sin Gas.</dd>
+                    </dl>
+
+
+                </div>
+            </article>
+
+            <article id="tab5">
+                <div class="menu-carta">
+                    <h2>JUGOS NATURALES</h2>
+                    <dl>
+                        <dt>Papaya</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">De pura fruta 100% natural.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Piña</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">De pura fruta 100% natural.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Surtido</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">De pura fruta 100% natural.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Mango</dt>
+                        <dd class="price">15.60</dd>
+                        <dd class="ingredients">De pura fruta 100% natural.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Melón</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">De pura fruta 100% natural.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Fresa</dt>
+                        <dd class="price">13.50</dd>
+                        <dd class="ingredients">De pura fruta 100% natural.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Plátano</dt>
+                        <dd class="price">17.70</dd>
+                        <dd class="ingredients">De pura fruta 100% natural.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Lúcuma</dt>
+                        <dd class="price">18.80</dd>
+                        <dd class="ingredients">De pura fruta 100% natural..</dd>
+                    </dl>
+                    <dl>
+                        <dt>Naranja</dt>
+                        <dd class="price">13.50</dd>
+                        <dd class="ingredients">De pura fruta 100% natural.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Especial</dt>
+                        <dd class="price">17.70</dd>
+                        <dd class="ingredients">De pura fruta 100% natural.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Guanábana</dt>
+                        <dd class="price">18.80</dd>
+                        <dd class="ingredients">De pura fruta 100% natural.</dd>
+                    </dl>
+                    <h2>JUGOS CON LECHE</h2>
+                    <dl>
+                        <dt>Fresa con Leche</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Fruta + leche</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Piña con Leche</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Fruta + leche</dd>
+                    </dl>
+                    <dl>
+                        <dt>Plátano con Leche </dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Fruta + leche</dd>
+                    </dl>
+                    <dl>
+                        <dt>Mango con Leche</dt>
+                        <dd class="price">15.60</dd>
+                        <dd class="ingredients">Fruta + leche</dd>
+                    </dl>
+                    <dl>
+                        <dt>Melón con Leche</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Fruta + leche</dd>
+                    </dl>
+                    <dl>
+                        <dt>Lúcuma con Leche</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Fruta + leche</dd>
+                    </dl>
+
+                </div>
+            </article>
+
+            <article id="tab6">
+                <div class="menu-carta">
+                    <h2>POR PESO</h2>
+                    <dl>
+                        <dt>1 kilo de Chicharrón</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Chicharrón en lonjas, fritas acompañadas con una porción de cebolla.
+                        </dd>
+                    </dl>
+
+                    <dl>
+                        <dt>1/2 kilo de Chicharrón</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Chicharrón en lonjas, fritas acompañadas con una porción de cebolla.
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>1/4 kilo de Chicharrón</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Chicharrón en lonjas, fritas acompañadas con una porción de cebolla.
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Porción de Camote</dt>
+                        <dd class="price">15.60</dd>
+                        <dd class="ingredients">Camote frito.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Media Porción de Camote</dt>
+                        <dd class="price">13.50 / 15.60</dd>
+                        <dd class="ingredients">Camote frito.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Tamal</dt>
+                        <dd class="price">13.50</dd>
+                        <dd class="ingredients">Tamales especiales, grandes, de pollo o chancho.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Pan Especial</dt>
+                        <dd class="price">17.70</dd>
+                        <dd class="ingredients">Pan Especial.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Kilo de Chicharrón en trozos</dt>
+                        <dd class="price">18.80</dd>
+                        <dd class="ingredients">Chicharrón en trozos.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Porción de Relleno</dt>
+                        <dd class="price">13.50</dd>
+                        <dd class="ingredients">Porción de relleno.</dd>
+                    </dl>
+
+
+                </div>
+            </article>
+
+            <article id="tab7">
+
+                <div class="menu-carta">
+
+                
+                <h2>PLATOS A LA CARTA</h2>
+                <dl>
+                    <dt>Lomo Saltado</dt>
+                    <dd class="price">13.50</dd>
+                    <dd class="ingredients">Lomo Saltado.</dd>
+                </dl>
+                <dl>
+                    <dt>Tallarín Saltado</dt>
+                    <dd class="price">17.70</dd>
+                    <dd class="ingredients">Tallarín Saltado.</dd>
+                </dl>
+                <dl>
+                    <dt>Lomo al Jugo</dt>
+                    <dd class="price">18.80</dd>
+                    <dd class="ingredients">Lomo al Jugo.</dd>
+                </dl>
+                <dl>
+                    <dt>Sopa Especial</dt>
+                    <dd class="price">13.50</dd>
+                    <dd class="ingredients">Caldo de chancho y pollo, tortilla de huevo,  chancho, cebolla china, fideos y
+                        pollo deshilachado.</dd>
+                </dl>
+        </div>
+        </article>
+
+        <article id="tab8">
+            <div class="menu-carta">
+                <h2>MENÚ</h2>
+                <dl>
+                <dt>MENÚ</dt>
+                <dd class="price">13.50 / 15.60</dd>
+                <dd class="ingredients">
+                    <ul>
+                        <li>ENSALADA o SOPA</li>
+                        <li>PLATO DE FONDO
+                            <ul>
+                                <li>lomo saltado</li>
+                                <li>tallarín saltado</li>
+                                <li>arroz chaufa</li>
+                            </ul>
+                        </li>
+                        <li>REFRESCO</li>
+                        <li>POSTRE</li>
+
+                    </ul>
+                </dd>
+                </dl>
+            </div>
+        </article>
+
+
+    </div>
+    </div>
+
+    <div class="subir">
+        <a href="#arriba"><i class="fas fa-angle-double-up"></i></a>
+        </div>
+    <footer>
+        <p>EL SANGUCHÓN PERO DE CHICHARRÓN, estamos contigo desde 1980. Todos los derechos reservados. 2020</p>
+        <p class="creditos">Desarrollado por <a href="http://www.geodreamspro.com">GEODREAMS</a></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    flex-wrap: wrap;
+    min-height: 100vh;
+    color: #424242;
+    background-image: url(../img/fondo.jpg);
+
+    margin-bottom: 200px;
+}
+
+
+
+.box_master2 {
+    width: 60%;
+    margin: auto;
+
+    @media screen and (max-width: 600px) {
+        width: 100%;
+    }
+}
+header{
+    width:100%;
+    background-color:#003300;
+    img{
+        
+        @media screen and (max-width: 380px) {
+            width: 100%;
+        }
+    }
+}
+
+.logo{
+    
+    @media screen and (max-width: 700px) {
+        width: 300px;
+    }
+}
+
+h1, h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
+
+.titulo_menu{
+    @media screen and (max-width:700px){
+        display:none;
+    }
+}
+
+h5{padding: 10px;
+    // font-family: 'Allura', cursive;
+    font-size: 1.3em;
+}
+
+p {
+    // font-family: 'Nunito Sans', sans-serif;
+    font-size: 1em;
+
+}
+
+
+
+
+
+    .mapa {
+        width: 100%;
+        background-color:#fff;
+      }
+
+
+
+article {
+    width: 100%;
+    a{ 
+        text-decoration: none;
+        font-weight: bold;
+        font-style: italic;
+        color: green;
+
+        &:hover{
+            text-decoration: none;
+            color: gray;
+        }
+
+    }
+}
+
+

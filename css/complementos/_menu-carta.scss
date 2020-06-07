@@ -1,0 +1,122 @@
+.menu-carta {
+
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+
+    h2{
+        margin-bottom: 100px;
+    }
+
+    p {
+        text-align: center;
+        color: #50A7FF
+    }
+
+    a {
+        color: #0055EA
+    }
+}
+//div#menu {width:550px;margin: 0 auto;
+//font: 90% "Trebuchet MS",Arial,sans-serif;text-align:left}
+h2 {
+    margin: 0;
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+}
+
+dl {
+    width: 100%;
+    overflow: auto;
+    margin: 0 0 1em;
+    background: url(../img/dot.gif) repeat-x 0 1.2em
+}
+
+dt,
+dd.price {
+    background: #FFF;
+    font-size: 130%;
+    font-weight: bold
+}
+
+.price{
+    display: block;
+}
+
+dt {
+    float: left;
+    padding-right: 3px;
+    color: #F70000
+}
+
+dd {
+    margin: 0
+}
+
+dd.price {
+    float: right;
+    padding-left: 3px;
+    color: #AAA
+}
+
+dd.ingredients {
+    float: left;
+    text-align: left;
+    width: 100%;
+    padding: 3px 0;
+    font: italic 100% Georgia, Times, sans-serif;
+    color: #555
+}
+
+
+
+// MENU TABS
+
+.wrap {
+    width: 1050px;
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+ul.tabs {
+    width: 100%;
+    background-color: #363636;
+    list-style: none;
+    display: flex;
+    margin: 0;
+
+    @media screen and (max-width:700px){
+        display:initial;
+        background-color: #363636;
+    }
+
+    .active {
+        background: #0984cc;
+    }
+
+    li {
+        width: 100%;
+        
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 10px;
+            text-align: center;
+            display: block;
+            padding: 10px 0;
+
+            background-color: #363636;
+
+            .tab-text {
+                margin-left: 8px;
+            }
+        }
+    }
+
+}
+
+
